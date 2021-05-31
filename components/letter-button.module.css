@@ -1,0 +1,15 @@
+.button {
+  font-family: "Londrina Solid", cursive;
+  font-size: 50px;
+  margin: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.wrong {
+  color: lightcoral;
+}
+
+.right {
+  color: lightgreen;
+}
