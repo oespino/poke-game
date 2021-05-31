@@ -8,8 +8,10 @@
 
 .wrong {
   color: lightcoral;
+  background-color: lightgray;
 }
 
 .right {
   color: lightgreen;
+  background-color: lightgray;
 }
