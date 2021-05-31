@@ -1,4 +1,5 @@
 import PokemonLetter from './pokemon-letter'
+import styles from './pokemon-panel.module.css'
 
 export default function PokemonPanel({ pokemonLetters, clickedLetters }) {
 
@@ -14,7 +15,7 @@ export default function PokemonPanel({ pokemonLetters, clickedLetters }) {
     }
 
     return (
-        <div style={{ display: 'flex' }}>
+        <div className={styles.container}>
             <PokemonLetterList />
         </div>
     )
