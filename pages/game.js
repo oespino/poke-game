@@ -1,6 +1,7 @@
 import { getRandomPokemon } from '../lib/pokemon'
 import LettersPanel from '../components/letters-panel'
 import PokemonPanel from '../components/pokemon-panel'
+import PokemonImage from '../components/pokemon-image'
 import Image from 'next/image'
 import Head from 'next/head'
 import { useState } from 'react';
@@ -29,14 +30,10 @@ export default function Home({ pokemon }) {
                 <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet" />
             </Head>
 
+            <PokemonImage pokemon={pokemon} />
+
             <PokemonPanel pokemonLetters={pokemonLetters} clickedLetters={clickedLetters} />
 
-            <Image priority
-                src={pokemon.image}
-                //className={utilStyles.borderCircle}
-                height={144}
-                width={144}
-                alt={pokemon.name} />
             <LettersPanel clickedLetters={clickedLetters} pokemonLetters={pokemonLetters} onClick={handleClick} />
         </div>
     )

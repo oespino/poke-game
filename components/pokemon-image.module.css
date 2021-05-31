@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.background {
+  display: flex;
+  justify-content: center;
+  background-image: url("/images/whosethat.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 350px;
+  min-width: 350px;
+  height: 200px;
+}
+
+.avatar {
+  position: relative;
+  top: 10px;
+  left: -75px;
+}
