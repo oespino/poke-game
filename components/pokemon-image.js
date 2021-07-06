@@ -9,7 +9,6 @@ export default function PokemonImage({ pokemon }) {
                 <div className={styles.avatar}>
                     <Image priority
                         src={pokemon.image}
-                        //className={utilStyles.borderCircle}
                         height={144}
                         width={144}
                         alt={pokemon.name} />

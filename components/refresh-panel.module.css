@@ -1,0 +1,20 @@
+.container {
+  margin: 20px;
+  text-align: center;
+  font-family: "Londrina Solid", cursive;
+  font-size: 30px;
+}
+
+.success {
+  color: green;
+  letter-spacing: 2px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+.button {
+  margin: 30px;
+  font-family: "Londrina Solid", cursive;
+  font-size: 30px;
+  background-color: lightgray;
+}

@@ -11,7 +11,7 @@ export default function LettersPanel({ clickedLetters, pokemonLetters, onClick }
         );
         return (
             <>
-                { listItems}
+                {listItems}
             </>
         );
     }
