@@ -90,8 +90,11 @@ export default function Home({ initialPokemon }) {
     return (
         <div>
             <Head>
+                <title>Poke Game</title>
+                <meta name="description" content="Who's that Pokémon simple game" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet" />
+                <link rel="icon" href="/images/whosethat.jpg" />
             </Head>
 
             {renderState()}
