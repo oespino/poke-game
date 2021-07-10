@@ -1,0 +1,40 @@
+.scoreRow {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.scoreGreenRow {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: green;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Londrina Solid", cursive;
+  font-size: 30px;
+}
+
+.username {
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 50%;
+}
+
+.score {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 50%;
+}
+
+.button {
+  margin: 30px;
+  background-color: lightgray;
+  font-family: "Londrina Solid", cursive;
+  font-size: 30px;
+}

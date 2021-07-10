@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Londrina Solid", cursive;
+  font-size: 30px;
+}
+
+.input {
+  font-family: "Londrina Solid", cursive;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.button {
+    margin: 30px;
+    font-family: "Londrina Solid", cursive;
+    font-size: 30px;
+    background-color: lightgray;
+  }
